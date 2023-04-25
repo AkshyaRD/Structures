@@ -18,11 +18,16 @@ Members of a Structure can be accessed using the member operator '.'
 eg: x.year=1999 in the structure car_shop
 
 ### car_shop
-A structure car_shop is defined taht consists of different data types:  char name[20]; int year; float cost; char category  
+A structure car_shop is defined that consists of different data types:  char name[20]; int year; float cost; char category  
 In the program, a derived data type struct car_shop is defined
 x is the structure variable
 
-###Why structs in C?
+### datas
+A structure datas is defined that consists of different data types:  char name[20]; int age; float gpa;  
+In the program, a derived data type struct datas is defined
+x is the structure variable
+
+### Why structs in C?
 Suppose you want to store information about a person: his/her name, citizenship number, and salary.   
 You can create different variables name, citNo and salary to store this information.  
 What if you need to store information of more than one person?   
